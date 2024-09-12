@@ -1,0 +1,26 @@
+@media (max-width:820px) {
+    .block__image-2 img {
+        width: 120px;
+    }
+    .block__image-1 img {
+        width: 120px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width:720px) {
+    .block__image-2 img {
+        display: none;
+    }
+    .block__image-1 img {
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    .information__description p {
+        opacity: 1;
+    }
+    .information__image img {
+        opacity: 0.3 !important;
+    }
+}
